@@ -76,7 +76,8 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |season, holidays|
     holidays.each do |holiday, supplies|
       binding.pry
-
+      if holiday
+      end
       # if holiday contains supplies bbq
       # shovel holiday into bbq_holidays
       #   return holiday
