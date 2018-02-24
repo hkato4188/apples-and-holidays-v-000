@@ -30,7 +30,7 @@ def add_supply_to_winter_holidays(holiday_hash, item)
 
   holiday_hash[:winter].each do |winter_holiday|
     binding.pry
-    winter_holiday << supply
+    winter_holiday << item
   end
 end
 
