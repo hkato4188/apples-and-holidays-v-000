@@ -79,6 +79,7 @@ def all_holidays_with_bbq(holiday_hash)
       if holiday
       end
     end
+  end
       # if holiday contains supplies bbq
       # shovel holiday into bbq_holidays
       #   return holiday
