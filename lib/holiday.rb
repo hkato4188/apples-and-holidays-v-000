@@ -76,7 +76,7 @@ def all_holidays_with_bbq(holiday_hash)
     holidays.collect do |holiday, supplies|
       if supplies.include?("BBQ")
         binding.pry
-        bbq_days << holiday.flatten
+        bbq_days << holiday
       end
       bbq_days
     end
