@@ -36,7 +36,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   end
 end
 
-add_supply_to_memorial_day
+add_supply_to_memorial_day(holiday_has, "Balloons")
 
 
 
