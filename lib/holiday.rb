@@ -55,6 +55,7 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash[:winter].each do |key, value|
     all_winter_holiday_supplies << value
   end
+  binding.pry
   all_winter_holiday_supplies.flatten
 end
 
